@@ -1,0 +1,191 @@
+<web-app>
+  <servlet>
+    <servlet-name>Index</servlet-name>
+    <servlet-class>index</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Index</servlet-name>
+    <url-pattern>/main</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>showdta</servlet-name>
+    <servlet-class>show</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>showdta</servlet-name>
+    <url-pattern>/shw</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>adm</servlet-name>
+    <servlet-class>admin</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>adm</servlet-name>
+    <url-pattern>/Adminindex</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>logout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>search</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>listdvd</servlet-name>
+    <servlet-class>dlist</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>listdvd</servlet-name>
+    <url-pattern>/listdvd</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>usrdta</servlet-name>
+    <servlet-class>userdata</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>usrdta</servlet-name>
+    <url-pattern>/users</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>usersearch</servlet-name>
+    <servlet-class>usearch</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>usersearch</servlet-name>
+    <url-pattern>/usersearch</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>dvdedit</servlet-name>
+    <servlet-class>editdlist</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>dvdedit</servlet-name>
+    <url-pattern>/dvdedit</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>dvdcedit</servlet-name>
+    <servlet-class>editclist</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>dvdcedit</servlet-name>
+    <url-pattern>/dvdcedit</url-pattern>
+  </servlet-mapping>
+  
+  
+     <servlet>
+    <servlet-name>cngpadmin</servlet-name>
+    <servlet-class>changePassAd</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>cngpadmin</servlet-name>
+    <url-pattern>/cngpassa</url-pattern>
+  </servlet-mapping>
+       <servlet>
+    <servlet-name>dvdadd</servlet-name>
+    <servlet-class>adddvd</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>dvdadd</servlet-name>
+    <url-pattern>/dvdadd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>catadd</servlet-name>
+    <servlet-class>catadd</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>catadd</servlet-name>
+    <url-pattern>/catadd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>usrreq</servlet-name>
+    <servlet-class>requests</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>usrreq</servlet-name>
+    <url-pattern>/usrreq</url-pattern>
+  </servlet-mapping>
+  
+    
+  <servlet>
+    <servlet-name>sdvdu</servlet-name>
+    <servlet-class>sdvdu</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sdvdu</servlet-name>
+    <url-pattern>/sdvdu</url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+    <servlet-name>reqdvdu</servlet-name>
+    <servlet-class>reqdvdu</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>reqdvdu</servlet-name>
+    <url-pattern>/reqdvdu</url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+    <servlet-name>user</servlet-name>
+    <servlet-class>user</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>user</servlet-name>
+    <url-pattern>/user</url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+    <servlet-name>dvdlistu</servlet-name>
+    <servlet-class>dvdlistu</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>dvdlistu</servlet-name>
+    <url-pattern>/dvdlistu</url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+    <servlet-name>cp</servlet-name>
+    <servlet-class>cp</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>cp</servlet-name>
+    <url-pattern>/cp</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>
